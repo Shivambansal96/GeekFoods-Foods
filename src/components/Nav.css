@@ -60,18 +60,14 @@
     color: black;
 }
 
-#home2 {
-    color: blue;
-}
-
 #right {
     /* border: solid 2px blue; */
 
     width: 30%;
 }
 
-#quote2:hover, #restaurant2:hover, #foods2:hover, #contact2:hover {
-    color: blue;
+#home:hover, #quote2:hover, #restaurant2:hover, #foods2:hover, #contact2:hover {
+    color: red;
 
     cursor: pointer;
 }
@@ -106,6 +102,13 @@
 }
 
 
+
+
+.active {
+    color: #1d4ed8;
+}
+
+
 @media screen and (max-width: 800px) {
     #button-container {
         width: 55%;
@@ -113,9 +116,9 @@
 }
 
 @media screen and (max-width: 400px) {
-    #left, #right , #menu-icon-phone-view {
-        /* border: solid 2px red; */
-    }
+    /* #left, #right , #menu-icon-phone-view {
+        border: solid 2px red;
+    } */
 
     #left {
         width: 50%;
